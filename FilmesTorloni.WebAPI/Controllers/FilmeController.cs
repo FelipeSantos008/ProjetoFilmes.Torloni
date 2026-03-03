@@ -1,5 +1,6 @@
 ﻿using FilmesTorloni.WebAPI.Interfaces;
 using FilmesTorloni.WebAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,6 +30,7 @@ public class FilmeController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpGet]
     public IActionResult Get()
     {

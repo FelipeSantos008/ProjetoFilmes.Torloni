@@ -164,7 +164,9 @@ C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.Web
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\FilmesTorloni.WebAPI.pdb
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\BCrypt.Net-Next.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -189,10 +191,14 @@ C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.Web
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -293,6 +299,7 @@ C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.Web
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.AssemblyInfoInputs.cache
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.AssemblyInfo.cs
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.sourcelink.json
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\rjimswa.dswa.cache.json
@@ -311,5 +318,3 @@ C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.Web
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.pdb
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\FilmesTorloni.WebAPI.genruntimeconfig.cache
 C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\obj\Debug\net10.0\ref\FilmesTorloni.WebAPI.dll
-C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\BCrypt.Net-Next.dll
-C:\Users\Marcos Vinicius\Desktop\3SDEV - Torloni\Projeto Filme\FilmesTorloni.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

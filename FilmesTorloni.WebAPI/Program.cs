@@ -3,8 +3,7 @@ using FilmesTorloni.WebAPI.Interfaces;
 using FilmesTorloni.WebAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.IdentityModel.Tokens.Experimental;
-
+using Microsoft.OpenApi;
 var builder = WebApplication.CreateBuilder(args);
 
 // Adiciona o contexto do banco de dados (exemplo com SQL Server)
@@ -49,10 +48,60 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Filmes API",
+        Description = "Uma API com catálogo de filmes",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "marcaumdev",
+            Url = new Uri("https://github.com/marcaumdev")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Example License",
+            Url = new Uri("https://example.com/license")
+        }
+    });
+
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Insira o token JWT desta forma: Bearer {seu_token_aqui}"
+    });
+
+    options.AddSecurityRequirement(document => new OpenApiSecurityRequirement
+    {
+        [new OpenApiSecuritySchemeReference("Bearer", document)] = Array.Empty<string>().ToList()
+    });
+});
+
+
 // Adiciona o serviço de Controllers
 builder.Services.AddControllers();
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger(options => { });
+
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
+    });
+}
 
 app.UseAuthentication();
 
