@@ -1,0 +1,9 @@
+# Ignora pastas de build e compilação do .NET
+[B|b]in/
+[O|o]bj/
+
+# Ignora pastas e arquivos de configuração local da IDE
+.vs/
+.vscode/
+*.user
+*.suo

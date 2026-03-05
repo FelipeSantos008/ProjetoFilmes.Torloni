@@ -3622,23 +3622,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\": {},
+    "C:\\Users\\90124765858\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Desktop\\3SDEV - Torloni\\Projeto Filme\\FilmesTorloni.WebAPI\\FilmesTorloni.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\90124765858\\Desktop\\ProjetoFilmes.Torloni\\FilmesTorloni.WebAPI\\FilmesTorloni.WebAPI.csproj",
       "projectName": "FilmesTorloni.WebAPI",
-      "projectPath": "C:\\Users\\Marcos Vinicius\\Desktop\\3SDEV - Torloni\\Projeto Filme\\FilmesTorloni.WebAPI\\FilmesTorloni.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcos Vinicius\\Desktop\\3SDEV - Torloni\\Projeto Filme\\FilmesTorloni.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\90124765858\\Desktop\\ProjetoFilmes.Torloni\\FilmesTorloni.WebAPI\\FilmesTorloni.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\90124765858\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\90124765858\\Desktop\\ProjetoFilmes.Torloni\\FilmesTorloni.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Marcos Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\90124765858\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3721,7 +3721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -60,8 +60,8 @@ builder.Services.AddSwaggerGen(options =>
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
         {
-            Name = "marcaumdev",
-            Url = new Uri("https://github.com/marcaumdev")
+            Name = "FelipeSantos",
+            Url = new Uri("https://github.com/FelipeSantos008")
         },
         License = new OpenApiLicense
         {
@@ -86,6 +86,16 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 
 // Adiciona o serviço de Controllers
 builder.Services.AddControllers();
@@ -102,6 +112,8 @@ if (app.Environment.IsDevelopment())
         options.RoutePrefix = string.Empty;
     });
 }
+
+app.UseStaticFiles();
 
 app.UseAuthentication();
 

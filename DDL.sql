@@ -33,3 +33,5 @@ ALTER COLUMN Email VARCHAR(256) NOT NULL;
 
 ALTER TABLE Usuario
 ADD CONSTRAINT UQ_Usuario_Email UNIQUE (Email);
+
+select * from Genero;
